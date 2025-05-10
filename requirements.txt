@@ -1,0 +1,10 @@
+streamlit
+uvicorn
+python-multipart
+pypdf2
+langchain
+sentence-transformers
+faiss-cpu
+requests
+python-dotenv
+langchain-community
