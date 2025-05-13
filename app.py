@@ -17,7 +17,7 @@ from typing import List, Dict, Any, Optional
 from pydantic import BaseModel
 
 # Set page config
-st.set_page_config(page_title="Advanced PDF QA", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="HYGO DocMate", page_icon="🧠", layout="wide")
 
 # Custom types
 class DocumentMetadata(BaseModel):
@@ -237,7 +237,7 @@ def get_relevant_documents(
     return results
 
 # UI Components
-st.title("🧠 Advanced PDF QA with Intelligent Chunking")
+st.title("🧠 DocMate")
 st.markdown("Upload PDFs and get answers with enhanced context understanding")
 
 # Sidebar for advanced controls
